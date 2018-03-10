@@ -33,6 +33,7 @@ body {
   padding-right: 15px;
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .article_one p {
@@ -48,6 +49,12 @@ body {
 .article_one {
   padding: 50px;
   width: 300px;
+}
+
+body object{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
