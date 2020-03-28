@@ -1,0 +1,141 @@
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: gray;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.navigation a:hover {
+  color: white;
+}
+
+.navigation {
+  text-align: center;
+  background-color: black;
+  font-family: 'Mina', sans-serif;
+  padding: 35px;
+}
+
+.navigation .active {
+  color: white;
+}
+
+main {
+	margin: 0 auto;
+	padding: 10%;
+	display: flex;
+	flex: wrap;
+}
+
+.me p {
+	font-family: sans-serif;
+	text-align: justify;
+	width: 85%;
+}
+
+.me {
+	padding: 20px;
+	padding-left: 30px;
+	width: 100%;
+}
+
+.imageofme img {
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-right: 50px;
+	border-radius: 50%;
+}
+
+.aboutme {
+	width: 10%;
+	height: auto;
+}
+
+
+body object{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.film {
+ width: 25%;
+ height: auto;
+ margin-bottom: 5px;
+ border-radius: 5px;
+}
+
+.film:hover {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.film img {
+ width: 100%;
+ height: auto;
+}
+
+.film p {
+ padding: 10px;
+ width: 85%;
+ text-align: justify;
+ height: auto;
+ font-family: sans-serif;
+ font-size: 75%;
+}
+
+.gallery {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #912925;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
